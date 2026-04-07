@@ -1,0 +1,204 @@
+{
+	"id": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+	"name": "Backend API Task",
+	"description": "",
+	"order": [
+		"5b8d22ae-c69c-80e9-da9a-73e78b9e5b79",
+		"ebd1e24d-ca0e-b57b-3fc7-ee761810c0e9",
+		"1073e388-d1ef-8c6d-4392-eeea2e744beb",
+		"57555934-db20-df2d-5493-884cec758e30",
+		"4ae5fdef-953b-99d0-bc80-e1ecee7bf8a7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1775541785710,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1073e388-d1ef-8c6d-4392-eeea2e744beb",
+			"headers": "Authorization:  Bearer 14|X0brone6Vul7hJ9421eiHryTKc03plK4OBstrdIq614adc02\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": " Bearer 14|X0brone6Vul7hJ9421eiHryTKc03plK4OBstrdIq614adc02",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/logout",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/logout",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1775541840318,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "4ae5fdef-953b-99d0-bc80-e1ecee7bf8a7",
+			"headers": "Authorization:  Bearer 14|X0brone6Vul7hJ9421eiHryTKc03plK4OBstrdIq614adc02\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": " Bearer 14|X0brone6Vul7hJ9421eiHryTKc03plK4OBstrdIq614adc02",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/tasks/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/tasks/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1775541852718,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"title\": \"My Task data exp sssss\",\r\n  \"description\": \"Test task\",\r\n  \"status\": \"pending\",\r\n  \"due_date\": \"2026-04-10\"\r\n}"
+		},
+		{
+			"id": "57555934-db20-df2d-5493-884cec758e30",
+			"headers": "Authorization:  Bearer 13|FbWlxWgGIWimpgbrvlqRPGlU1SKNxwmjLko2hr5Ubc19d108\n//Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": " Bearer 13|FbWlxWgGIWimpgbrvlqRPGlU1SKNxwmjLko2hr5Ubc19d108",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/tasks",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/tasks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1775541846872,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"title\": \"My Task\",\r\n  \"description\": \"Test task\",\r\n  \"status\": \"pending\",\r\n  \"due_date\": \"2026-04-10\"\r\n}"
+		},
+		{
+			"id": "5b8d22ae-c69c-80e9-da9a-73e78b9e5b79",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1775541819797,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"name\": \"testdata\",\r\n  \"email\": \"testdata@mail.com\",\r\n  \"password\": \"123456\"\r\n}"
+		},
+		{
+			"id": "ebd1e24d-ca0e-b57b-3fc7-ee761810c0e9",
+			"headers": "Content-Type: application/json\n//Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fa457231-f274-ffca-fe86-cadf577fdfcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1775541833580,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"email\": \"testdata@mail.com\",\r\n  \"password\": \"123456\"\r\n}"
+		}
+	]
+}
