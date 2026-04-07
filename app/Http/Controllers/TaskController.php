@@ -7,7 +7,6 @@ use App\Models\Task;
 use Illuminate\Http\Request;
 use SoftDeletes;
 
-
 class TaskController extends Controller
 {
 
