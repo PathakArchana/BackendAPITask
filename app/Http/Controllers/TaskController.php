@@ -46,7 +46,7 @@ public function update(Request $request, $id)
     }
 
     $task->update($request->all());
-    Log::info('Task updated', ['task_id' => $id]);
+    Log::info('Task updated', ['task_id' => $id]);    
 
     return response()->json($task);
 }
