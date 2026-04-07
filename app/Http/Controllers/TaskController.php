@@ -22,7 +22,6 @@ public function store(Request $request)
         'title' => 'required',
         'status' => 'in:pending,in-progress,completed'
     ]);
-
     $task = $request->user()->tasks()->create($request->all());
     Log::info('Task created', ['task_id' => $task->id]);
 
